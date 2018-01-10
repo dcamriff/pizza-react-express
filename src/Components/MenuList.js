@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import MenuItem from './MenuItem'
+// import MenuItem from './MenuItem'
 
 class MenuList extends Component {
     render() {
