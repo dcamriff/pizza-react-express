@@ -1,11 +1,13 @@
 import React, { Component } from 'react'
 
+import pizzaOven from '../images/pizzaoven.jpg'
+
 class Description extends Component {
     render() {
         return (
             
-            <div id="description" className='description'>
-            <img src="./images/pizzaoven.jpg" alt="pizza oven"/>
+            <div id="description" className="description">
+            <img src = {pizzaOven} />
             <p>Trees grow in all kinds of ways. They're not all perfectly straight. Not every limb is perfect. Exercising the imagination, experimenting with talents, being creative; these things, to me, are truly the windows to your soul. Painting should do one thing. It should put happiness in your heart. This is probably the greatest thing to happen in my life - to be able to share this with you.
 
 The least little bit can do so much. Use what you see, don't plan it. Every time you practice, you learn more.
