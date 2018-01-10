@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import pizzaData from '../pizzaData'
+// import pizzaData from '../pizzaData'
 
 class MenuItem extends Component {
     render() {
@@ -7,8 +7,11 @@ class MenuItem extends Component {
         return (
             
             <div id="menu" className="menu-item">
+            <div>
+            <img src={this.props.image} alt="image"/>
+            </div>
             <h2>{this.props.name}</h2>
-            <h3>{this.props.price}</h3>
+            <h3>price: {this.props.price}</h3>
             <p>{this.props.description}</p>
 
             </div>
