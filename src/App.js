@@ -3,7 +3,10 @@ import React, { Component } from 'react'
 import Navbar from './components/Navbar'
 import SplashImage from './components/SplashImage'
 import Description from './components/Description'
-import MenuList from './components/MenuList';
+import MenuList from './components/MenuList'
+import MenuItem from './components/MenuItem'
+
+import  pizzaData from './pizzaData'
 
 
 class App extends Component {
@@ -13,7 +16,7 @@ class App extends Component {
         <Navbar />
         <SplashImage />
         <Description />
-        <MenuList />
+        <MenuList pizza = {pizzaData} />
       </div>
     )
   }
