@@ -2,7 +2,9 @@ import React, { Component } from 'react'
 
 import Navbar from './components/Navbar'
 import SplashImage from './components/SplashImage'
-import Description from './components/Description';
+import Description from './components/Description'
+import MenuList from './components/MenuList';
+
 
 class App extends Component {
   render() {
@@ -11,6 +13,7 @@ class App extends Component {
         <Navbar />
         <SplashImage />
         <Description />
+        <MenuList />
       </div>
     )
   }
