@@ -5,8 +5,11 @@ import SplashImage from './components/SplashImage'
 import Description from './components/Description'
 import MenuList from './components/MenuList'
 import MenuItem from './components/MenuItem'
+import Location from './components/Location'
+import LocationList from './components/LocationList'
 
 import  pizzaData from './pizzaData'
+import locationData from './locationData'
 
 
 class App extends Component {
@@ -17,6 +20,7 @@ class App extends Component {
         <SplashImage />
         <Description />
         <MenuList pizza = {pizzaData} />
+        <LocationList eachLocation = {locationData} />
       </div>
     )
   }
