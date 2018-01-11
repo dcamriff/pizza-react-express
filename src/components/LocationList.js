@@ -18,7 +18,7 @@ class LocationList extends Component {
             
             <div id="locations">
                 <h1>Locations:</h1>
-                <div>
+                <div className="locations">
                 {allLocations}
                 </div>
             </div>
