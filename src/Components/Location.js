@@ -4,9 +4,8 @@ class Location extends Component {
     render() {
 
         return (
-
             
-                <div className="location">
+                <div id="location" className="location">
                     <p>{this.props.name}</p>
                     <strong>Address: {this.props.address}</strong>
                     <p>{this.props.phone}</p>

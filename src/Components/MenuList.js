@@ -17,7 +17,7 @@ class MenuList extends Component {
 
         return (
             
-            <div className="menu">
+            <div id="menu" className="menu">
                 <h1>Menu</h1>
                 <div className="menu-container">
                 {menuItems}
